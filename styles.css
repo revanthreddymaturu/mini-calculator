@@ -1,0 +1,64 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ecf0f3;
+}
+.out-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+   
+    background:#ecf0f3 ;
+}
+.in-form
+{
+    display: flex;
+    flex-wrap:wrap ;
+    width: 250px;
+    
+    border-radius: 40px;
+
+}
+.output
+{
+   min-width: 250px;
+   min-height: 140px;
+    background-color: white;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+}
+.calc-btn
+{
+   border: 1px solid rgb(255, 255, 255);
+   font-weight: bold;
+   padding: 1em;
+   width: 10px;
+   flex-grow: 1;
+   background-color: white;
+}
+.calc-btn:hover
+{
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+
+.operator,.equal
+{
+ color: lightcoral;
+}
+.clear,.delete,.remain
+{
+    color: rgb(40, 207, 151);
+
+}
+
+.numbef,.numaft
+{
+    text-align: right;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    font-size: xx-large;
+    overflow-wrap: break-word;    
+}
